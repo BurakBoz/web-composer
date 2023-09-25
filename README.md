@@ -1,31 +1,33 @@
 # Web Composer
 
-![Screenshot](https://raw.githubusercontent.com/BurakBoz/web-composer/main/screenshot.png)
+![Web Composer Screenshot](https://raw.githubusercontent.com/BurakBoz/web-composer/main/screenshot.png)
 
-Web Composer provides an easy way to install and use Composer for your PHP projects via a web interface. This is particularly useful for hosting and servers where command-line access is restricted.
+## Overview
+
+Web Composer is a user-friendly web interface that simplifies the process of installing and managing Composer packages for your PHP projects. This tool proves especially valuable in hosting environments and servers where command-line access is restricted.
 
 ## License
 
-Web Composer is licensed under [Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/). You can refer to the license document for details.
+Web Composer is open-source software and is licensed under the [Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). Please review the license document for detailed information.
 
-**Note**: As per the license requirements, it's important to maintain the license and author information. When contributing to the project, please respect the license rules and author rights.
+## Getting Started
 
----
+To begin using Web Composer, follow these simple steps:
 
-## Author
+1. **Upload**: Upload the `composer.php` file to the root directory of your project on your web server.
 
-Web Composer is developed by Burak Boz. You can find more information [here](https://www.burakboz.net).
+2. **Access**: Access the Web Composer interface through your web browser by navigating to `http://yourwebsite.com/path-to-web-composer/composer.php`.
 
-
-## Usage
-
-To use Web Composer through the web interface:
-
-1. Upload the `web-composer.php` file to the document root directory of your project on your web server.
-2. Access the script via a web browser by navigating to `http://yourwebsite.com/path-to-web-composer/web-composer.php`.
-
-Web Composer utilizes Composer to manage your project's dependencies. By default, development dependencies are not installed, and the autoloader is optimized.
+3. **Manage Dependencies**: Utilize Web Composer to effortlessly manage your project's Composer dependencies. By default, development dependencies are not installed, and the autoloader is optimized for performance.
 
 ## Contributing
 
-If you want to contribute to this project, you can do so by visiting the GitHub repository. You can access the project [here](https://github.com/BurakBoz/web-composer).
+We welcome contributions to Web Composer! If you wish to contribute to the project, please visit our [GitHub repository](https://github.com/BurakBoz/web-composer) to get started. Your contributions are greatly appreciated.
+
+## Author
+
+Web Composer is developed and maintained by [Burak Boz](https://www.burakboz.net). For more information about the author and their work, visit the provided link.
+
+---
+
+**Note**: As per the license requirements, it's important to maintain the license and author information. When contributing to the project, please respect the license rules and author rights.
