@@ -1,1 +1,1 @@
-Web Composer © 2023 by Burak Boz is licensed under Attribution 4.0 International. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
+[Web Composer](https://github.com/BurakBoz/web-composer) by [Burak Boz](https://www.burakboz.net) is licensed under [Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1) ![CC Icon](https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1) ![BY Icon](https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1)
