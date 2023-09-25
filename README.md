@@ -12,7 +12,7 @@ Web Composer is licensed under [Attribution 4.0 International](http://creativeco
 
 To use Web Composer through the web interface:
 
-1. Upload the `web-composer.php` file to the root directory of your project on your web server.
+1. Upload the `web-composer.php` file to the document root directory of your project on your web server.
 2. Access the script via a web browser by navigating to `http://yourwebsite.com/path-to-web-composer/web-composer.php`.
 
 Web Composer utilizes Composer to manage your project's dependencies. By default, development dependencies are not installed, and the autoloader is optimized.
