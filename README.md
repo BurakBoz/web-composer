@@ -18,7 +18,7 @@ To begin using Web Composer, follow these simple steps:
 
 2. **Access**: Access the Web Composer interface through your web browser by navigating to `http://yourwebsite.com/path-to-web-composer/composer.php`.
 
-3. **Manage Dependencies**: Utilize Web Composer to effortlessly manage your project's Composer dependencies. By default, development dependencies are not installed, and the autoloader is optimized for performance.
+3. **Manage Dependencies**: Utilize Web Composer to effortlessly manage your project's Composer dependencies. By default,  the autoloader is optimized for performance.
 
 ## Laravel integration
 1. Put `composer.php` next to your composer.json or project root directory.
