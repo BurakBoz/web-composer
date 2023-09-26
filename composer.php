@@ -30,8 +30,8 @@ WebComposer::init([
 
 class WebComposer
 {
-    public static $version = "0.0.1";
-    public static $agent = "WebComposer/v0.0.1";
+    public static $version = "0.0.2";
+    public static $agent = "WebComposer/v0.0.2";
     public static $maxScanDepth = 3;
     public static $path = __DIR__ . "/";
     public static $composerPhar = 'composer.phar';
