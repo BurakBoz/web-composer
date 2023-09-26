@@ -20,6 +20,28 @@ To begin using Web Composer, follow these simple steps:
 
 3. **Manage Dependencies**: Utilize Web Composer to effortlessly manage your project's Composer dependencies. By default, development dependencies are not installed, and the autoloader is optimized for performance.
 
+## Laravel integration
+1. Put `composer.php` to next to your composer.json or project root directory.
+2. Open your `public/index.php` file.
+3. Find
+```php
+require __DIR__.'/../vendor/autoload.php';
+```
+4. Replace with
+```php
+if(!@include __DIR__.'/../vendor/autoload.php')
+{
+    require __DIR__."/../composer.php";
+    exit();
+}
+```
+5. now delete `vendor/` folder on your project
+```bash
+rm -rf vendor/
+```
+6. Open your web site in web browser `http://yourwebsite.com/`
+7. It should work seamlessly.
+
 ## Contributing
 
 We welcome contributions to Web Composer! If you wish to contribute to the project, please visit our [GitHub repository](https://github.com/BurakBoz/web-composer) to get started. Your contributions are greatly appreciated.

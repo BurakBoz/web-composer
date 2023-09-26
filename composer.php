@@ -21,7 +21,7 @@ if (function_exists('apache_setenv'))
 
 WebComposer::init([
     'command' => 'install',
-    '--no-dev' => true,
+    //'--no-dev' => true,
     '--optimize-autoloader' => true,
     '--no-interaction' => true,
     '--no-progress' => true,
